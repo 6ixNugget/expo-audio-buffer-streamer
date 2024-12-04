@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "expo-audio-buffer-streamer": ["../src/index"],
+      "expo-audio-buffer-streamer/*": ["../src/*"]
+    }
+  }
+}
